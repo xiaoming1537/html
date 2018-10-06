@@ -1,0 +1,9 @@
+/*css文件中不需要加style标签*/
+@import "other.css";
+h1{
+    font-size: 80px;
+    color: blue;
+}
+p{
+
+}

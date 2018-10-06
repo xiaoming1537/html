@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优先级</title>
+    <style type="text/css">
+        div{
+            color: red;
+        }
+        *{
+            color: orange;
+        }
+        a{
+            color: green;
+        }
+        .link{
+            color: saddlebrown;
+        }
+        #hd{
+            color: aquamarine;
+        }
+        #box #hd {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<div id="box">
+    <a href="http://houdunren.com" id="hd" class="link">后盾人</a>
+</div>
+</body>
+<!--继承的样式<浏览器给的默认样式 < 通用选择器 < 标签选择器 < 类选择器
+< id选择器 < 子代选择器 <行内样式-->
+<!--选择的越精准,优先级越高.-->
+</html>

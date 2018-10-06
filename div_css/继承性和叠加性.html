@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <style>
+       #box{
+           color: green;
+       }
+
+       #title{
+           color: black;
+           font-size: 70px;
+       }
+       h1{
+           color:orange;
+       }
+   </style>
+
+</head>
+<body>
+<!--叠加行:不同选择器给同一个元素家的不同样式,会同时生效-->
+<h1 id="title">我是后多人h1标签</h1>
+<!--子元素会继承父元素中的文字相关样式-->
+<!--文字大小,字体,文字颜色,倾斜,加粗,-->
+<div id="box">
+    <p>后多人</p>
+    <p>后多人</p>
+    <p>后多人</p>
+    <p>后多人</p>
+    <p>后多人</p><p>后多人</p>
+    <p>后多人</p>
+    <p>后多人</p>
+
+
+</div>
+</body>
+</html>

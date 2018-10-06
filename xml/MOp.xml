@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<bookstre long="shus">
+    <book category="COOKING" id="23">
+        <title lang="0">Everyday</title>
+        <author>Giada De Laurentiis</author>
+        <year>20055</year>
+        <price>30.00</price>
+    </book>
+    <book category="CHILDREN" id="24">
+        <title lang="1">Harry Potter</title>
+        <author>K.Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book category="WEB" id="35">
+        <title lang="2" sh="2-1">Learning</title>
+        <author>Frik T.Ray</author>
+        <year>2003</year>
+        <price>$lt;39.95</price>
+    </book>
+</bookstre>

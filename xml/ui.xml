@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<book>
+    <title>The Sun Also Risess</title>
+    <author gender="male">Ernest Hemingway</author>
+    <description>The masterpiece that launched Hemingway`s career.</description>
+    <cast>
+        <character>Jake Barnes</character>
+        <character>Lady Brett Ashley</character>
+        <character>Robert Cohn</character>
+        <character>Mike Campbell</character>
+    </cast>
+</book>

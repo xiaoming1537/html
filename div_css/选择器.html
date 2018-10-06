@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--标签选择器-->
+    <style type="text/css">
+        /*<!--标签选择器-->*/
+        /*p{*/
+            /*color: green;*/
+        /*}*/
+        /*id选择器*/
+        /*id要保证唯一性*/
+        /*#three{*/
+            /*color: red;*/
+        /*}*/
+        /*class选择器(类选择器)*/
+/*.hd{*/
+    /*color:saddlebrown;*/
+    /*font-size: 50px;*/
+/*}*/
+/*交叉选择器*/
+        /*选择标签是p，class是hd*/
+        /*p.hd{*/
+            /*color: red;*/
+        /*}*/
+        /*子代选择器/父子选择器/包含选择器/后代选择器*/
+        /*选择p标签里的span标签*/
+        /*空格代表父子关系*/
+        /*p span{*/
+
+            /*color: red;*/
+            /*font-size: 45px;*/
+        /*}*/
+        /*div .hd{*/
+            /*color: #000000;*/
+        /*}*/
+
+        /*!*群组选择器*!*/
+        /*!*选择标签名是span或者class是hd或者id是five*!*/
+        /*span,.hd,#five{*/
+
+        /*}*/
+        /**{*/
+            /*color: red;*/
+            /*font-size: 45px;*/
+        /*}*/
+        /*div *{*/
+            /**/
+        /*}*/
+        /*复合型选择器*/
+        #top .left .title a.link span{
+            color: red;
+        }
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+<span class="hd"> 这是span标签</span>
+<span class="hd"> 这是span标签</span>
+<div id="top">
+    <div class="left">
+        <a class="link">sfjksj<span>sssssssssssssssssssss</span></a>
+        <div class="title">
+            <a>jhhhhhhhhhhhhhhhhh<span>hhhhhhhhhhhhhhh</span> </a><br/>
+            <a class="link" >kjjhhjhjghggfu<span>sssssss</span></a>
+        </div>
+    </div>
+
+    <!--p{后盾人，人人肉盾$}*8-->
+    <p class="hd">后盾人，人人肉盾1</p>
+    <p class="hd" style="color:red;">后盾人，人人肉盾2</p>
+    <p id="three">后盾人，人人肉盾3</p>
+    <p>后盾人，人人肉盾4
+    <span>这里有个span标签</span></p>
+    <p>后盾人，人人肉盾5</p>
+    <p class="hd">后盾人，人人肉盾6</p>
+    <p>后盾人，人人肉盾7<span>这里有个span标签</span></p>
+    <p>后盾人，人人肉盾8</p>
+</div>
+<div>
+    <!--p{后盾人，人人肉盾$}*8-->
+    <p>后盾人，人人肉盾1</p>
+    <p>后盾人，人人肉盾2</p>
+    <p>后盾人，人人肉盾3</p>
+    <p>后盾人，人人肉盾4</p>
+    <p>后盾人，人人肉盾5</p>
+    <p>后盾人，人人肉盾6</p>
+    <p>后盾人，人人肉盾7</p>
+    <p>后盾人，人人肉盾8</p>
+</div>
+</body>
+</html>
